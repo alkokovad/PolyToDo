@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 $main-color: #282828;
+$sec1: 100px;
 
 body {
   background-color: $main-color;
+  margin: 0;
+  main {
+    padding-top: $sec1;
+  }
 }

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+h3 {
+  margin: 16px 0;
+  padding: 0 16px;
+  font: 400 16px "Inter", sans-serif;
+  color: white;
+}
+
+p {
+  margin: 0 0 16px 0;
+  padding: 0 16px;
+  font: 400 12px "Inter", sans-serif;
+  color: white;
+}
+
+.docs {
+  padding: 0 16px;
+}
+.docs div {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: fit-content;
+  margin: 0 0 16px 0;
+}
+.docs div p {
+  margin: auto;
+  padding: 0;
+}
+
+/*# sourceMappingURL=subject.css.map */

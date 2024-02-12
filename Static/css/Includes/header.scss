@@ -10,19 +10,23 @@ $in3: 32px;
 $f1: 400 12px 'Inter', sans-serif;
 $f2: 400 16px 'Inter', sans-serif;
 
-nav {
+header {
   position: fixed;
   height: $sec1;
-  width: 100%;
+  width: calc(100% - $in3);
   padding: 0 $in2;
   background-color: $nav-color;
   border-radius: 0 0 $in2 $in2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   .auth {
     border: none;
     background-color: transparent;
     color: white;
     font: $f1;
-    margin: 0;
+    margin: auto 0;
+    padding: 0;
   }
   .homework {
     height: $in3;
@@ -32,6 +36,7 @@ nav {
     background-color: $main-color;
     color: white;
     font: $f1;
-    margin: 0;
+    margin: auto 0;
+    padding: 0;
   }
 }
