@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$nav-color: #383838;
+$main-color: #282828;
+$sec1: 100px;
+$sec2: 120px;
+$in1: 8px;
+$in2: 16px;
+$in3: 32px;
+$f1: 400 12px 'Inter', sans-serif;
+$f2: 400 16px 'Inter', sans-serif;
+
+nav {
+  position: fixed;
+  height: $sec1;
+  width: 100%;
+  padding: 0 $in2;
+  background-color: $nav-color;
+  border-radius: 0 0 $in2 $in2;
+  .auth {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font: $f1;
+    margin: 0;
+  }
+  .homework {
+    height: $in3;
+    width: $sec2;
+    border-radius: $in1;
+    border: none;
+    background-color: $main-color;
+    color: white;
+    font: $f1;
+    margin: 0;
+  }
+}
